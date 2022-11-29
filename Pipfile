@@ -11,6 +11,7 @@ pandas = "*"
 seaborn = "*"
 matplotlib = "*"
 imblearn = "*"
+streamlit = "*"
 
 [dev-packages]
 
