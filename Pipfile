@@ -12,6 +12,7 @@ seaborn = "*"
 matplotlib = "*"
 imblearn = "*"
 streamlit = "*"
+xgboost = "*"
 
 [dev-packages]
 
