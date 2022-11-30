@@ -3,7 +3,6 @@
 The app is deployed to Streamlit, and can be found in the link below
 https://pavanksu2009-teleco-churn-prediction-churn-pred-app-es7fdi.streamlit.app/
 
-
 # Churn Modelling - How to predict if a Telecom’s customer will stay or leave.
 
 We created an app to demonstrate the ability to apply best machine learning model to predict the likelihood of customer churn. We accomplished this using the following steps:
@@ -24,4 +23,5 @@ We tested five different machine learning models (and used  in the final applica
 
 Finally, using Streamlit, we created the user-facing app to add information to our data set matching our initial dataframe to predict the likelihood of a customer departing the company. This was then deployed to Streamlit,
 and can be found at this URL: https://pavanksu2009-teleco-churn-prediction-churn-pred-app-es7fdi.streamlit.app/
+
  
