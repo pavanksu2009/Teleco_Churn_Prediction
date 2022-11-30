@@ -2,9 +2,8 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 import joblib
-from sklearn.externals import joblib
 
-load_model = joblib.load(r"models\challa_logistic_regression.sav")
+load_model = joblib.load("models/challa_logistic_regression.sav")
 
 def  main():
     st.sidebar.info("This app is created to predict churn")
