@@ -13,6 +13,7 @@ matplotlib = "*"
 imblearn = "*"
 streamlit = "*"
 xgboost = "*"
+gunicorn = "*"
 
 [dev-packages]
 
