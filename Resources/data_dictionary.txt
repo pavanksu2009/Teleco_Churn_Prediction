@@ -1,6 +1,6 @@
 CustomerID		category	 Unique ID of each customer
 Gender			category	 Whether the customer is a male or a female (1, 0)
-Senior_Citizen		category	 Whether the customer is a senior citizen or not (1, 0)
+Senior_Citizen	category	 Whether the customer is a senior citizen or not (1, 0)
 Partner			category 	 Whether the customer has a partner or not (Yes, No)
 Dependents		category	 Whether the customer has dependents or not (Yes, No)
 Tenure			int		 Number of months the customer has stayed with the company

@@ -52,12 +52,12 @@ def  main():
     ok = st.button("Churn Prediction")
     if ok:
         X =  pd.DataFrame([input_dict])
-        y_pred = load_model.predict(X)
-        output = y_pred[0]
+        y_pred = load_model.predict_proba(X)[0,1]
+        output = y_pred
         if output > 0.5:
-            st.write("The customer Exited")
+            st.write("The customer Exited and the Churn probability is {}".format(output))
         else:
-            st.write("The customer Stayed")    
+            st.write("The customer Stayed and the Churn probability is {}". format(output))    
             
 
 if __name__ == '__main__':
